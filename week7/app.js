@@ -2,6 +2,12 @@
 import Jogging from "./components/Jogging"
 // Imports the Weights file
 import Weights from "./components/Weights"
+// Imports the Days file
+import Days from "./components/Days"
+// Imports the CSS file
+import "./components/App.css"
+// Imports the Message file
+import Message from "./components/Message"
 
 function App() 
 {
@@ -12,6 +18,8 @@ function App()
       <h1>Exercise Tracker</h1>
       <Jogging/>
       <Weights/>
+      <Days/>
+      <Message/>
     </div>
 
   );
