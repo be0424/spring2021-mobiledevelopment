@@ -1,4 +1,6 @@
 import React, {Component} from "react"
+// Imports the CSS file
+import "./App.css"
 
 class Jogging extends Component
 {
