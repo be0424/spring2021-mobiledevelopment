@@ -1,4 +1,6 @@
 import React, {useState} from "react";
+// Imports the CSS file
+import "./App.css"
 
 function Weights()
 {
